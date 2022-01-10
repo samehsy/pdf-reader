@@ -1,0 +1,20 @@
+<div
+  class="h-full w-full relative"
+  #parent
+  (mousedown)="mouseDown($event)"
+  (mouseup)="mouseUp($event)"
+  (mousemove)="mouseMove($event)"
+  (scroll)="onScroll($event)"
+>
+  <!-- <canvas
+   
+    #canvas
+    id="canvas"
+    (mousedown)="mouseDown($event)"
+    (mouseup)="mouseUp($event)"
+    (mousemove)="mouseMove($event)"
+  ></canvas> -->
+
+  <div #div class="border-red-500 border w-0 h-0"></div>
+</div>
+<!-- <div #output id="output" [innerHtml]="innserHtml"></div> -->

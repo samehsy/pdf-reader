@@ -1,0 +1,27 @@
+.file-input {
+  display: none;
+}
+
+::ng-deep {
+  .ng2-pdf-viewer-container{
+    scroll-behavior: smooth;
+  }
+  pdf-viewer {
+    height: 100vh;
+}
+
+  .mat-slider{
+    min-width: 300px !important;
+  }
+  .mat-slider.mat-slider-horizontal .mat-slider-wrapper {
+    top: 18px !important;
+    height: 5px !important;
+
+  }
+  .mat-slider.mat-slider-horizontal .mat-slider-track-wrapper,
+  .mat-slider-track-background,
+  .mat-slider-track-fill {
+    height: 5px !important;
+    border-radius: 10px !important;
+  }
+}
