@@ -41,5 +41,14 @@ Start the server
 ```bash
   ng  serve
 ```
+ ### backend (python)
+
+* Make sure you have installed pip (Python 3)
+    ```text
+    sudo apt-get install python3-pip
+    ```
  
+* install  required  python  packeges: open-cv , numpy .......
+
+
 
